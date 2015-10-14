@@ -28,7 +28,7 @@ keywords: "will, weaver, personal, jekyll, technology, tech, docker"
 ################
 
 black-favicon: "/img/black-lab-glass.ico"
-background-img: "../img/intro-bg.jpg"
+#background-img: "../img/intro-bg.jpg"
 me-img: "/img/monkey-with-wrench.png"
 
 ##############################
