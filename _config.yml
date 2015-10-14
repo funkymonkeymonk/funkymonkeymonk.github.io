@@ -1,14 +1,14 @@
 
 # Site settings
 
-url: "http://panossakkos.github.io"
+url: "http://funkymonkeymonk.github.io"
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
 
-baseurl: /personal-jekyll-theme
+# baseurl: /repository-name
 
 google-tracking-id: "<YOUR GOOGLE TRACKING ID>"
 
@@ -16,12 +16,12 @@ google-tracking-id: "<YOUR GOOGLE TRACKING ID>"
 # HTML Head #
 #############
 
-author: "John Smith"
+author: "Will Weaver"
 lang: "en"
-title: "{ John Smith }"
+title: "{ Will Weaver }"
 favicon: "/img/favicon.ico"
-description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
-keywords: "smith, jones, personal, jekyll, theme"
+description: "Blog and website of Will Weaver, blogging mainly for tech. Opinions expressed are mine."
+keywords: "will, weaver, personal, jekyll, technology, tech, docker"
 
 ################
 # Intro layout #
@@ -57,7 +57,7 @@ paginate: 5
 fb-share: True
 twitter-share: True
 reddit-share: True
-disqus-shortname: "panossakkos"
+disqus-shortname: "funkymonkeymonk"
 
 ###############
 # Life Events #
@@ -78,21 +78,21 @@ career-img: "/img/career/default.png"
 # Contact layout #
 ##################
 
-email: "your@email.here"
+email: "monkey@buildingbananas.com"
 
 ##################
 # Social Buttons #
 ##################
 
 social:
-  - title: "facebook"
-    url: "http://facebook.com/"
+  # - title: "facebook"
+  #   url: "http://facebook.com/"
   - title: "twitter"
-    url: "http://twitter.com/"
-  - title: "youtube"
-    url: "http://youtube.com/"
+    url: "http://twitter.com/buildingbananas"
+  # - title: "youtube"
+  #   url: "http://youtube.com/"
   - title: "github"
-    url: "https://github.com/PanosSakkos/personal-jekyll-theme"
+    url: "https://github.com/funkymonkeymonk"
   - title: "rss"
     url: "/feed.xml"
 
