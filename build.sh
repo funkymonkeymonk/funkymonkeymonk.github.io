@@ -2,7 +2,7 @@
 
 function run_jekyll {
   docker run -it --rm --volume=$(pwd):/srv/jekyll \
-    -p 4000:4000 jekyll/jekyll:pages jekyll s
+    -p 4000:4000 jekyll/jekyll:pages jekyll serve --watch --baseurl ""
 }
 
 # For development
