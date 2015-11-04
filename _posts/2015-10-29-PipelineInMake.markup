@@ -35,7 +35,7 @@ steps. I decided my next project would use make as that interface.
 
 This is a snippet of my Makefile template.
 
-<pre style="text-align: left">
+{% highlight Makefile %}
 project_name := "projectname"
 project_dir := $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
 
@@ -75,7 +75,7 @@ promote:
 
 deploy:
   @echo No coverage step defined yet for $(project_name)
-</pre>
+{% endhighlight %}
 
 I work with a developer to fill this template out with the proper commands to
 run different parts of the pipeline. Now, despite working with many different
