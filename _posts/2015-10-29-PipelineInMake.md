@@ -6,7 +6,7 @@ category: tech
 tags: [ 'CI', 'CD']
 ---
 
-<h3>This post is a work in progress.</h3>
+### This post is a work in progress.
 
 As someone who subscribes to the belief that the right tool for the job is the
 tool that the team is most comfortable working in, I have found the need to be
@@ -15,6 +15,7 @@ frequently.  In the most extreme cases every few hours as I move from one pair
 to the next. I love knowing that each developer I pair with is working with the
 tools that make them the most functional, but it comes at the cost of massive
 amounts of context switching for me.
+
 
 I feel the need to create an interface layer.  Something that allowed me to talk
 about the build pipeline in abstract concepts that mapped to simple commands on
@@ -25,6 +26,7 @@ Lastly I wanted two developers using two completely different stacks to be able
 to talk about their build chains in a way that didn't require both to have a
 deep understand the others tooling.
 
+
 For a while I used bash scripts to do this. They are very available and in may
 ways create a runnable documentation of the build pipeline in the code base. I
 learned in doing this I ended up creating functions that called other functions,
@@ -33,9 +35,10 @@ scaffolding. So I began my search for a tool as ubiquitous as bash, but that
 provided the scaffolding to do solid argument handling and chaining of different
 steps. I decided my next project would use make as that interface.
 
+
 This is a snippet of my Makefile template.
 
-<pre style="text-align: left">
+```
 project_name := "projectname"
 project_dir := $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
 
@@ -76,7 +79,7 @@ promote:
 deploy:
   @echo No coverage step defined yet for $(project_name)
 </pre>
-
+```
 I work with a developer to fill this template out with the proper commands to
 run different parts of the pipeline. Now, despite working with many different
 languages and toolsets, the language of continuous integration and delivery
