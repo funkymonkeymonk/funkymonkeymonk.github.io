@@ -21,7 +21,7 @@ lang: "en"
 title: "Will Weaver"
 favicon: "/img/favicon.ico"
 description: "Blog and website of Will Weaver, blogging mainly for tech. Opinions expressed are mine."
-keywords: "will, weaver, personal, jekyll, technology, tech, docker"
+keywords: "will, weaver, personal, jekyll, technology, tech, docker, devops, DevOps, Devops, consultant"
 
 ################
 # Intro layout #
@@ -43,6 +43,7 @@ type-speed:	10		# Default 10
 start-delay: 200	# Default 200
 delete-delay: 5000	# Default 5000
 lines:			# You can add HTML Tags in the Text
+  - text: "DevOps (noun): a practice in which individuals take operational responsibility for the services they develop"
   - text: "Wherever I go, there I am."
   - text: "The real cycle that you're working on is the cycle called yourself."
 ########
